@@ -1,0 +1,23 @@
+{
+    "require": {
+        "phpspec/phpspec": "^2.2",
+        "phpunit/phpunit": "^5.1"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "" : "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://mwwebdev3:98"
+        },
+        {
+            "packagist": false
+        }
+    ]
+}
